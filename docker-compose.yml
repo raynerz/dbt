@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  postgres-dwh:
+      image: postgres:13
+      expose:
+        - 5432
+      environment:
+        POSTGRES_USER: dbt
+        POSTGRES_PASSWORD: dbt
+        POSTGRES_DB: jaffle_shop
+      volumes:
+        - postgres-db-volume-dwh:/var/lib/postgresql/data
+      restart: always
+      ports:
+        - 5433:5432
+  dbt:
+    build:
+      context: .
+      dockerfile: dbt/Dockerfile
+    environment:
+      - DBT_PROFILES_DIR=/usr/dbt/.dbt
+    volumes:
+      - ./dbt:/usr/dbt
+    depends_on:
+      - postgres-dwh
+    ports:
+      - 8000:8000
+
+
+
+volumes:
+  postgres-db-volume-dwh:
