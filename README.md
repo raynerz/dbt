@@ -19,4 +19,4 @@ $ ./clean.sh
 
 ## Miscellaneous
 
-- Checkout template branch for a new clean dbt project
+- Checkout `template` branch for a new clean dbt project
