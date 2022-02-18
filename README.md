@@ -30,11 +30,11 @@ $ ./clean.sh
 
 ## Notation
 
-2 Pts: DBT Implementation 
-3 Pts: Data Model
-1 Pnt: Tests
+- 2 Pts: DBT Implementation 
+- 3 Pts: Data Model
+- 1 Pnt: Tests
 
-4 Pts: Presentation
+- 4 Pts: Presentation
 
 Total: 10 Pts
 
