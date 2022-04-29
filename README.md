@@ -17,10 +17,6 @@ $ ./clean.sh
 
 ```
 
-## Miscellaneous
-
-- Checkout `template` branch for a new clean dbt project
-
 # Visium Task
 
 - Load the data from the seeds folder
@@ -41,6 +37,10 @@ Total: 10 Pts
 ## Tips
 
 - Kimball Modeling Techniques [Link 1](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/four-4-step-design-process/) [Link 2](https://books.google.ch/books/about/The_Data_Warehouse_Toolkit.html?id=WMEqTf2lK84C&redir_esc=y)
-- Your presentation explains your approach and the data modeling decisions you did. Questions will be asked in that regard.
+- Your presentation explains your approach and the data modeling decisions you did. Questions will be asked in that regard. 
+
+## Bonus
+
+- Introducing data observability (e.g. re_data or great expectations) will make a really (really) good impression.
 
 
