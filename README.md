@@ -19,10 +19,11 @@ $ ./clean.sh
 
 # Visium Task
 
-- Load the data from the data folder
-- Model it using Kimball Best Practices
-- Implement 2 integrity tests
+- Load the data from the /dbt/data folder
+- Model it using Kimball Best Practices. The business process that you will be tracking is sales. 
+- Implement 2 integrity tests.
 - Present your findings
+
 
 ## Notation
 
