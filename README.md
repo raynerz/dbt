@@ -19,7 +19,7 @@ $ ./clean.sh
 
 # Visium Task
 
-- Load the data from the seeds folder
+- Load the data from the data folder
 - Model it using Kimball Best Practices
 - Implement 2 integrity tests
 - Present your findings
