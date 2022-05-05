@@ -10,6 +10,8 @@ $ ./dbt_cli.sh
 
 ```
 
+The above bash script will open a docker container that is bootstrapped to a postgres sql database. Doing dbt run in the container will lead to a success message. That means that everything works and you can proceed to source, model and test the data. 
+
 ## How to clean (containers && images && volumes)
 
 ```
@@ -20,7 +22,7 @@ $ ./clean.sh
 # Visium Task
 
 - Load the data from the seeds folder
-- Model it using Kimball Best Practices
+- Model a sales star schema using Kimball Best Practices
 - Implement 2 integrity tests
 - Present your findings
 

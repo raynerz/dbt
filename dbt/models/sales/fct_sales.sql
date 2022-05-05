@@ -1,0 +1,1 @@
+-- Your code here, this fact table is not the only table that you will have to create.
