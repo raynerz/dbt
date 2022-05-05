@@ -1,6 +1,6 @@
 # DBT Pet project
 
-Small project aimed to understand the functioning of DBT. Inspired from the (dbt getting started project)[https://github.com/dbt-labs/jaffle_shop]
+Small project aimed to understand the functioning of DBT. Inspired from the [dbt getting started project](https://github.com/dbt-labs/jaffle_shop)
 
 ## How to use this Project
 
