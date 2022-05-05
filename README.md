@@ -21,15 +21,10 @@ $ ./clean.sh
 
 # Visium Task
 
-<<<<<<< HEAD
-- Load the data from the seeds folder
-- Model a sales star schema using Kimball Best Practices
-- Implement 2 integrity tests
-=======
+
 - Load the data from the /dbt/data folder
 - Model it using Kimball Best Practices. The business process that you will be tracking is sales. 
 - Implement 2 integrity tests.
->>>>>>> 1fce472819f8143567df45502748146487a92095
 - Present your findings
 
 
